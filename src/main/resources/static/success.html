@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="/css/style.css" rel="stylesheet" type="text/css">
+
+    <title>Form Completion Success</title>
+</head>
+
+<body>
+    <div align="center">
+        <h1>Registration Succeeded! </h1>
+
+        <span>First name: </span>
+        <span th:text="${user.firstName}"></span>
+        <br />
+
+        <span>Last name: </span>
+        <span th:text="${user.lastName}"></span>
+        <br />
+
+        <span>E-mail: </span>
+        <span th:text="${user.email}"></span>
+        <br />
+
+            
+
+    </div>
+
+</body>
+
+</html>
